@@ -2,10 +2,20 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "json-server",
+      "author": "typicode"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postID": 1
+    }
+  ],
+  "profile": [
+    {
+      "name":"typicode"
+    }
+  ]
 }
